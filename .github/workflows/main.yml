@@ -30,7 +30,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Pull Docker Image
-        run: docker pull piseth168/cicdhtmlimage:lates
+        run: docker pull piseth168/cicdhtmlimage:latest
 
       - name: Delete Old Container
         run: docker rm -f htmlContainer
